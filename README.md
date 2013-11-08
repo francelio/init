@@ -1,4 +1,4 @@
 init
 ====
 
-init project Init
+Projeto inicial para o github.
