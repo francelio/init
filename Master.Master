@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" ClientIDMode="Static" CodeBehind="Master.master.cs" Inherits="SchoolSystem.Master" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>..:: Intranet M2F & 3runo  ::..</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        var jq = jQuery.noConflict();
+        jq(document).ready((function () {
+            jq('tbody tr:odd').addClass('odd');
+        }));
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmMaster" runat="server">
+
+        <div id="main">
+
+            <div class="header" style="height:120px" >
+                <a href="Default.as px" title="Intranet">
+                    <img src="images/loogo.jpg" alt="Intranet" height="100"  /></a>
+            </div>
+            <!-- /header -->
+
+            <div class="navSide radius">
+
+                <ul>
+                    <li><a href="Principal.aspx" title="Ir para paginal Inicial">Inicial</a></li>
+                    <li>Cadastro
+                        <ul class="itens">
+                            <li><a href="CadEmpresa.aspx" title="Cadastrar Empresa" >Cadastrar Empresa</a></li>
+                            <li><a href="CadDepartamento.aspx" title="Cadastrar Departamento" >Cadastrar Departamento</a></li>
+                            <li><a href="CadFuncionario.aspx" title="Cadastrar Funcionario" >Cadastrar Funcionario</a></li>
+                            <li><a href="CadUsuario.aspx" title="Cadastrar Usuario" >Cadastrar Usuario</a></li>
+                            <li><a href="CadRamal.aspx" title="Cadastrar Ramal" >Cadastrar Ramal</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li>Consultas
+                        <ul class="itens">
+                            <li><a href="ConEmpresa.aspx" title="Consultar Empresa">Consultar Empresa</a></li>
+                            <li><a href="ConDepartamento.aspx" title="Consultar Departamento">Consultar Departamento</a></li>
+                            <li><a href="ConFuncionario.aspx" title="Consultar Funcionario">Consultar Funcionario</a></li>
+                            <li><a href="ConUsuario.aspx" title="Consultar Usuario">Consultar Usuario</a></li>
+                            <li><a href="ConRamal.aspx" title="Consultar Ramal">Consultar Ramal</a></li>
+                            <li><a href="ConAniversario.aspx" title="Consultar Aniversariantes">Consultar Aniversariantes</a></li>
+                        </ul>
+                    </li>
+                    <li>Noticias
+                        <ul class="itens">
+                            <li><a href="CadNoticia.aspx" title="Cadastrar Noticias">Cadastrar Noticias</a></li>
+                            <li><a href="ConNoticia.aspx" title="Consultar Noticias">Consultar Noticias</a></li>
+                            
+                        </ul>
+                    </li>
+              
+                </ul>
+
+            </div>
+            <!-- /navSide -->
+
+            <div id="content" class="radius">
+                <asp:ContentPlaceHolder ID="cphContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!-- /Content -->
+
+            <div class="footer">
+            </div>
+            <!-- /footer -->
+
+        </div>
+        <!-- /Main -->
+
+    </form>
+</body>
+</html>

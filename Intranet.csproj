@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39DE9C99-2B84-403E-BE4B-97E52BE4A1BC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SchoolSystem</RootNamespace>
+    <AssemblyName>SchoolSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.1005, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ajax\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CadEmpresa.aspx" />
+    <Content Include="CadFuncionario.aspx" />
+    <Content Include="CadNoticia.aspx" />
+    <Content Include="CadRamal.aspx" />
+    <Content Include="ConAniversario.aspx" />
+    <Content Include="ConDepartamento.aspx" />
+    <Content Include="ConEmpresa.aspx" />
+    <Content Include="ConFuncionario.aspx" />
+    <Content Include="ConNoticia.aspx" />
+    <Content Include="ConRamal.aspx" />
+    <Content Include="ConUsuario.aspx" />
+    <Content Include="css\style.css" />
+    <Content Include="images\grd_alt.png" />
+    <Content Include="images\grd_head.png" />
+    <Content Include="images\grd_pgr.png" />
+    <Content Include="images\icon\Add.png" />
+    <Content Include="images\icon\Attention.png" />
+    <Content Include="images\icon\Blue.png" />
+    <Content Include="images\icon\Cancel.png" />
+    <Content Include="images\icon\Download.png" />
+    <Content Include="images\icon\Edit-icon.png" />
+    <Content Include="images\icon\Fast Forward.png" />
+    <Content Include="images\icon\Fast Rewind.png" />
+    <Content Include="images\icon\Favorite.png" />
+    <Content Include="images\icon\Forward.png" />
+    <Content Include="images\icon\Graphite.png" />
+    <Content Include="images\icon\Green.png" />
+    <Content Include="images\icon\Grey.png" />
+    <Content Include="images\icon\Help.png" />
+    <Content Include="images\icon\Info.png" />
+    <Content Include="images\icon\Knob Red.png" />
+    <Content Include="images\icon\Left.png" />
+    <Content Include="images\icon\Loop Off.png" />
+    <Content Include="images\icon\Loop On.png" />
+    <Content Include="images\icon\Message.png" />
+    <Content Include="images\icon\Orange.png" />
+    <Content Include="images\icon\Pause.png" />
+    <Content Include="images\icon\Play Green.png" />
+    <Content Include="images\icon\Play.png" />
+    <Content Include="images\icon\Purple.png" />
+    <Content Include="images\icon\Record Off.png" />
+    <Content Include="images\icon\Record On.png" />
+    <Content Include="images\icon\Refresh.png" />
+    <Content Include="images\icon\Remove Red.png" />
+    <Content Include="images\icon\Remove.png" />
+    <Content Include="images\icon\Search.png" />
+    <Content Include="images\icon\Shuffle Off.png" />
+    <Content Include="images\icon\Shuffle On.png" />
+    <Content Include="images\icon\Smart.png" />
+    <Content Include="images\icon\Snapback.png" />
+    <Content Include="images\icon\Snapforward.png" />
+    <Content Include="images\icon\Stop.png" />
+    <Content Include="images\icon\Upload.png" />
+    <Content Include="images\icon\Valid Blue.png" />
+    <Content Include="images\icon\Valid Green.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Principal.aspx" />
+    <Content Include="images\Loogo.jpg" />
+    <Content Include="images\app_search.png" />
+    <Content Include="images\file_edit.png" />
+    <Content Include="images\save.png" />
+    <Content Include="images\search.png" />
+    <Content Include="test.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="CadDepartamento.aspx" />
+    <Content Include="CadUsuario.aspx" />
+    <Content Include="WebForm3.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CadEmpresa.aspx.cs">
+      <DependentUpon>CadEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadEmpresa.aspx.designer.cs">
+      <DependentUpon>CadEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadFuncionario.aspx.cs">
+      <DependentUpon>CadFuncionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadFuncionario.aspx.designer.cs">
+      <DependentUpon>CadFuncionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadNoticia.aspx.cs">
+      <DependentUpon>CadNoticia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadNoticia.aspx.designer.cs">
+      <DependentUpon>CadNoticia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadRamal.aspx.cs">
+      <DependentUpon>CadRamal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadRamal.aspx.designer.cs">
+      <DependentUpon>CadRamal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ConAniversario.aspx.cs">
+      <DependentUpon>ConAniversario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConAniversario.aspx.designer.cs">
+      <DependentUpon>ConAniversario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConDepartamento.aspx.cs">
+      <DependentUpon>ConDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConDepartamento.aspx.designer.cs">
+      <DependentUpon>ConDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConEmpresa.aspx.cs">
+      <DependentUpon>ConEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConEmpresa.aspx.designer.cs">
+      <DependentUpon>ConEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConFuncionario.aspx.cs">
+      <DependentUpon>ConFuncionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConFuncionario.aspx.designer.cs">
+      <DependentUpon>ConFuncionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConNoticia.aspx.cs">
+      <DependentUpon>ConNoticia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConNoticia.aspx.designer.cs">
+      <DependentUpon>ConNoticia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConRamal.aspx.cs">
+      <DependentUpon>ConRamal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConRamal.aspx.designer.cs">
+      <DependentUpon>ConRamal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConUsuario.aspx.cs">
+      <DependentUpon>ConUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConUsuario.aspx.designer.cs">
+      <DependentUpon>ConUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CadDepartamento.aspx.cs">
+      <DependentUpon>CadDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadDepartamento.aspx.designer.cs">
+      <DependentUpon>CadDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadUsuario.aspx.cs">
+      <DependentUpon>CadUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadUsuario.aspx.designer.cs">
+      <DependentUpon>CadUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Master.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:13211/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

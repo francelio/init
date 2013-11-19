@@ -1,0 +1,41 @@
+C:\Users\Francelio alencar\Desktop\site teste\intranet\intranet\bin\SchoolSystem.dll.config
+C:\Users\Francelio alencar\Desktop\site teste\intranet\intranet\bin\SchoolSystem.dll
+C:\Users\Francelio alencar\Desktop\site teste\intranet\intranet\bin\SchoolSystem.pdb
+C:\Users\Francelio alencar\Desktop\site teste\intranet\intranet\obj\Debug\Intranet.csprojResolveAssemblyReference.cache
+C:\Users\Francelio alencar\Desktop\site teste\intranet\intranet\obj\Debug\SchoolSystem.dll
+C:\Users\Francelio alencar\Desktop\site teste\intranet\intranet\obj\Debug\SchoolSystem.pdb
+C:\Users\Francelio alencar\Desktop\site teste\schoolSystem\schoolSystem\bin\SchoolSystem.dll.config
+C:\Users\Francelio alencar\Desktop\site teste\schoolSystem\schoolSystem\bin\SchoolSystem.dll
+C:\Users\Francelio alencar\Desktop\site teste\schoolSystem\schoolSystem\bin\SchoolSystem.pdb
+C:\Users\Francelio alencar\Desktop\site teste\schoolSystem\schoolSystem\obj\Debug\Intranet.csprojResolveAssemblyReference.cache
+C:\Users\Francelio alencar\Desktop\site teste\schoolSystem\schoolSystem\obj\Debug\SchoolSystem.dll
+C:\Users\Francelio alencar\Desktop\site teste\schoolSystem\schoolSystem\obj\Debug\SchoolSystem.pdb
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\SchoolSystem.dll.config
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\SchoolSystem.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\SchoolSystem.pdb
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\obj\Debug\Intranet.csprojResolveAssemblyReference.cache
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\obj\Debug\SchoolSystem.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\obj\Debug\SchoolSystem.pdb
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\AjaxControlToolkit.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\HtmlAgilityPack.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\AjaxMin.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\AjaxControlToolkit.pdb
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Francelio alencar\Desktop\site teste official\schoolSystem\schoolSystem\bin\zh-CHT\AjaxControlToolkit.resources.dll
